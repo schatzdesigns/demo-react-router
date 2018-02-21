@@ -1,0 +1,54 @@
+.container {
+	width: 100vw;
+	height: 100vh;
+	background: rgba(255, 212, 0, .01) url('https://gw.alipayobjects.com/zos/rmsportal/TVYTbAXWheQpRcWDaDMu.svg') no-repeat center;
+	background-size: 100%;
+}
+
+.form-login {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -160px 0 0 -160px;
+	width: 350px;
+	height: inherit;
+	max-height: 370px;
+	padding: 36px;
+	box-shadow: 0 0 100px rgba(0, 0, 0, 0.08)
+}
+
+.form-register {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -250px 0 0 -160px;
+	width: 400px;
+	height: inherit;
+	padding: 36px;
+	box-shadow: 0 0 100px rgba(0, 0, 0, 0.08)
+}
+
+.title {
+	text-align: center;
+	font-size: 16px;
+	display: flex;
+	margin-bottom: 16px;
+	justify-content: center;
+	align-items: center
+}
+
+.button-auth {
+	width: 100%;
+}
+
+.auth-alert {
+	margin-bottom: 16px
+}
+
+.link {
+	text-align: center;
+	font-size: 14px;
+	display: flex;
+	justify-content: center;
+	align-items: center
+}

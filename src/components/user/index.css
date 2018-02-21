@@ -1,0 +1,71 @@
+.trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color .3s;
+}
+
+.trigger:hover {
+    color: #00421B;
+}
+
+.notification {
+    float: right;
+}
+
+.avatar {
+    float: right;
+}
+
+.logoLg {
+    height: 120px;
+    width: 100%;
+    padding: 16px;
+}
+
+.logoSm {
+    height: 75px;
+    width: 100%;
+    padding: 16px;
+}
+
+.trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color .3s
+}
+
+.trigger:hover {
+    color: #1890FF;
+}
+
+.dashboard-card {
+    border-radius: 20px !important;
+    width: 180px;
+    height: 180px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-card img {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.dashboard-card p {
+    text-align: center;
+    color: #00421B;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.dashboard-card p > span {
+    color: #FFD400;
+}
